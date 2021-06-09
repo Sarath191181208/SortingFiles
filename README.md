@@ -1,5 +1,5 @@
 # About 
-  Sorts folders of certain types into respective folders 
+  Sorts folders of certain types of files into respective folders 
 
 # Configuring Folders
   Changing JSON file values at certain keys will change the resulting folder 
