@@ -7,8 +7,8 @@ import json
 
 FileTypesDic = json.load(open('FileTypes.json'))
 
-folder_to_track = "C:/sarath/dummy"
-folder_destination = "C:/sarath/target"
+folder_to_track = "C:/Users/Vangipuram/Downloads"
+folder_destination = "C:/Users/Vangipuram/Documents"
 
 # creates a denstiny folder and
 
