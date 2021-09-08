@@ -28,7 +28,7 @@
 import json
 dic = {}
 formats = json.load(open('ProgrammingLanguagesAndTheirExtensions.json'))
-for j in formats:
+fr j in formatso:
     extensions = j["extensions"]
     for i in extensions:
         i = i.replace(".", "")

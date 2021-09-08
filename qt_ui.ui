@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	background-color : rgb(0,0,0);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="source_path_txt">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	color : rgb(120,120,120);
+}</string>
+       </property>
+       <property name="text">
+        <string>Source Path :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="source_path_btn">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>120</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color : rgba(85, 255, 127,0);
+	color : rgb(220, 220, 220);
+	border : 1px solid rgb(85, 0, 255);
+	border-radius: 5;
+}
+
+QPushButton:hover{
+	background-color : rgb(85, 0, 255);
+	color : rgb(255,255,255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Source Path</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	background-color : rgba(255, 255, 255, 0);
+	border : 1px solid rgb(85, 0, 255);
+	color : white;
+}</string>
+       </property>
+       <property name="text">
+        <string>C:/Users/Name/Downloads</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="des_path_txt">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+	color : rgb(120,120,120);
+}</string>
+       </property>
+       <property name="text">
+        <string>Destination Path :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="des_path_btn">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>270</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color : rgba(85, 255, 127,0);
+	color : rgb(220, 220, 220);
+	border : 1px solid rgb(85, 0, 255);
+	border-radius: 5;
+}
+
+QPushButton:hover{
+	background-color : rgb(85, 0, 255);
+	color : rgb(255,255,255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Final Path</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>270</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	background-color : rgba(255, 255, 255, 0);
+	border : 1px solid rgb(85, 0, 255);
+	color : white;
+}</string>
+       </property>
+       <property name="text">
+        <string>C:/Users/Name/Sorted Downloads</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sort_btn">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>420</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color : rgb(65, 0, 215);
+	color : rgb(220, 220, 220);
+	border : 1px solid rgb(85, 0, 255);
+	border-radius: 5;
+}
+
+QPushButton:hover{
+	background-color : rgba(85, 0, 255,0.5);
+	color : rgb(255,255,255);
+	border : 1px solid rgb(60, 0, 180);
+}</string>
+       </property>
+       <property name="text">
+        <string>Sort</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
