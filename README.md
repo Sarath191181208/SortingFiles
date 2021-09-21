@@ -1,6 +1,6 @@
 # About
 
-Sorts folders of certain types of files into respective folders
+Sorts certain types of files into respective folders
 
 # How to run?
 Run qt_ui.py to get a gui and select folder to sort the files
@@ -11,4 +11,3 @@ Run qt_ui.py to get a gui and select folder to sort the files
 # Configuring Folders
 
 Changing JSON file values at certain keys will change the resulting folder.
-easyWayToCreateJson.py has some code to directly write without much effort.
