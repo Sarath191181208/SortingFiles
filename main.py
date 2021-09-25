@@ -12,8 +12,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from tkinter import Tk, messagebox
 from tkinter.filedialog import askdirectory
 import os
-import json 
-import time
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
